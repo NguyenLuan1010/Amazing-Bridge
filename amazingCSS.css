@@ -1,0 +1,1524 @@
+* {margin: 0;padding: 0;font-family:Tahoma;}
+li{list-style: none;}
+a{text-decoration: none;cursor: pointer;}
+.header-box{height: 90px;display: flex;justify-content:space-around;line-height: 20px;background-color:white;}
+.header-home{position: relative;top:56%;left:1%;color:black;display: flex;font-size: 30px;transition: color 0.5s;}
+.header-home:hover{color:red;}
+.header-img img{border:4px solid orange;height: 200px;position:absolute;z-index: 1000;}
+.header-menu{display: flex;justify-content: center;margin-top:2%; position: relative;}
+.header-menu li{padding: 13px;}
+.header-menu .header-charac{padding-bottom: 0;}
+.header-menu li a{color:black;transition: color 0.5s;}
+.header-menu li a:hover{color:red}
+.header-news a{font-size: 18px;color:black;transition: color 0.5s;}
+.header-search{border:2px solid black;background: transparent;border-top: none;border-left:none;border-right:none;font-size: 15px;outline: none;}
+.header-search:focus{border-bottom-color: orange;}
+.header-button{border:none;;background: transparent; font-size: 15px;outline: none;cursor: pointer;position: relative;}
+.header-nation select{border:2px solid black;background: transparent;border-top: none;border-left:none;border-right:none;font-size: 18px;outline: none;margin-top: -3%;cursor: pointer;}
+.header-nation select:focus{border-bottom-color: orange;}
+.header-charac a{color:black;font-size: 18px;display: block; height: 100%;}
+.header-login a{color:black;font-size: 18px;line-height: 30px;position: relative;top: -5px;}
+.header-login a img{
+  position: relative;
+  top: 5px;
+}
+.header-signup a{color:black;font-size: 18px;}
+.header-sup{color: black;font-size: 18px;}
+::-webkit-scrollbar{ width: 10px;background-color: rgb(199, 196, 196);border-radius: 8px;}
+::-webkit-scrollbar-thumb{background-color: gray; border-radius: 8px;}
+.under-header-menu {background-color:whitesmoke;
+  display: none;
+  position:absolute;width: 99.5%;height: 308px;
+ border:3px solid orange;
+}
+.menu-sub{margin-top: -2px;line-height: 100px;
+display: flex;justify-content: center;border:none;border-left: none;border-bottom:none;
+border-right:none;border-top: 2px orange;}
+.menu-sub li a{color:black;}
+.first-list ul li{margin-top: -20%;}
+.first-list ul li a:hover{text-decoration: underline rgb(247, 85, 85);}
+#title_second_chart{padding-top:20px ;margin-left: 37%;font-size: 30px; color:azure}
+.first_chart {display:flex;flex-direction: column;height: 800px;margin:auto}
+.first_chart span{position: relative;width: 100%;height: 400px;}
+.first_chart #container2{margin-top: 20px;position: relative;left: 14px;}
+#container{width:70%;margin-left:16%;display: flex;justify-content: center;}
+#container2{width:70%;margin-left:15%;display: flex;justify-content: center;}
+.first_chart #container4{margin-top: 20px;position: relative;left: 14px;}
+#container3{width:70%;margin-left:16%;display: flex;justify-content: center;}
+#container4{width:70%;margin-left:15%;display: flex;justify-content: center;}
+h1{padding-top:20px ;margin-left: 37%;color: azure;}
+.update{display: flex;justify-content: center;}
+.today{border:2px solid azure;padding: 10px;border-radius: 11px;font-size: 25px;color: azure;}
+ #first-covid-record{color:rgb(250, 125, 125)}
+ #second-covid-record{color:rgb(7, 7, 7)}
+ #third-covid-record{color:rgb(146, 204, 128)}
+.table{border: 2px solid rgb(247, 244, 244);border-radius: 11px;width:50%;height: 500px;}
+.second_chart{display: flex;justify-content: center;}
+.menu_table {display: flex;justify-content: center;}
+.menu_table b{line-height: 40px;height: 40px;font-size: 20px;margin-left: 15%;color: azure;}
+.menu_table >#Sum_table{margin-left :15%;color: azure;}
+.second_menu_table{height:400px;overflow-y: scroll;}
+.second_menu_table hr{width: 90%;margin-left: 9%;}
+.second_menu_table ul #covid-record2{padding:4%;text-align: center;}
+.second_menu_table ul #covid-record2 strong{color: azure;}
+.second_menu_table ul #covid-record1{padding:4%;text-align: center;color: azure;}
+.second_menu_table ul #covid-record2 .covid-Vietnam{padding-left: 22%;margin-top: 10px;color: rgb(5, 224, 253);}
+.second_menu_table ul #covid-record1 .covid-world{margin-left:6.5%;padding-left: 11%;margin-top: 10px;}
+.menu-covid ul{border:1px solid steelblue;border-left: none;border-right: none;display: flex;justify-content: center;margin-top: 0px;background-color: steelblue}
+.menu-covid ul li{margin-left:10%;padding:10px;padding-left: 5%;padding-right: 0%;font-size:20px;}
+.menu-covid ul li a{color:rgb(248, 247, 247);}
+.menu-covid ul li a:hover{color:rgb(9, 13, 241)}
+.small-menu{border:1px solid; width: 100%;height:200px;display: flex;justify-content: center;position: absolute;}
+ .covidImage{width: 100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
+ .new-header{ border: 2px solid aliceblue;display: flex;width:50%;background-color: aliceblue;justify-content: space-around;position: absolute;z-index: 100;top: 460px;left: 5%;}
+ .new-header img{width: 50%;height: 250px;position: relative;top: 5%;right: 7%;}
+ .main-content{width:20%;height: 200px; position: relative;right: 15%;}
+ .new-header .main-content h3{width: 180%;color: black;position: relative;left:0%;top: 5%;}
+ .new-header .main-content p{margin-top: 10px;color: black;width: 300px;overflow: hidden;text-overflow: ellipsis;line-height: 20px;-webkit-line-clamp: 7;
+  display: -webkit-box;-webkit-box-orient:vertical;}
+  .listPostCovid{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 120px;
+    float: left;
+  }
+  .listPostCovid .centerPostCovid{
+    border: 2px solid aliceblue;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    color: black;
+  
+  }
+  .listPostCovid .centerPostCovid img{
+    width: 50%;
+    height: 200px;
+  }
+  .listPostCovid .centerPostCovid h3{
+    margin-left: 3%;
+  }
+  .listPostCovid .centerPostCovid p{
+    overflow: hidden;text-overflow: ellipsis;line-height: 20px;-webkit-line-clamp: 5;
+    display: -webkit-box;-webkit-box-orient:vertical;
+  }
+  .Left-new{
+    border: 2px solid aliceblue;
+    width: 40%;
+    display: flex;
+  justify-content: space-around;
+    background-color: aliceblue;
+    color: black;
+    position: relative;
+    left: 20px;
+    top: 12px;
+    margin-bottom: 12px;
+  }
+  .Left-new .covidContent{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Left-new img{
+    width: 100%;
+    height: 200px;
+  }
+  .Left-new p{
+    overflow: hidden;text-overflow: ellipsis;line-height: 20px;-webkit-line-clamp: 5;
+    display: -webkit-box;-webkit-box-orient:vertical;
+  }
+.MainNEWS{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.MainNEWS .dateCovid{
+  margin-left: 70%;
+}
+.MainNEWS h1{
+  color:black;margin:auto
+}
+.MainNEWS p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+}
+.login-body{display: flex;width: 100vw;height: 100vh;background:url('Images/Big_images/Cầu-Cổng\ -Vàng.jpg');background-position:center;background-repeat:no-repeat;background-size:cover;}
+.CommentForm{width: 50%;display: flex;flex-direction: column;margin-left: 10%;}
+.CommentForm h2{color: orange;}
+.CommentForm form input{width: 100%;font-size: 20px;color:black;border:none;outline: none;border-bottom: 3px solid orange;background: transparent;}
+.CommentForm form button{width: 30%;height: 45px;margin-top: 10px;font-size: 20px;color:white;border-radius: 11px;background-color: orange;cursor: pointer;outline: none;border:3px solid rgb(10, 157, 231)}
+.sign-box{width: 100%;height: 100%;background: rgb(0, 0,0, 0.7);display: flex;align-items: center;justify-content: center;}
+.sign-form{ width: 350px;height: 400px;background: transparent;font-size: 20px;position: relative;display: flex;justify-content: center;flex-direction: column;left:2%;}
+.sign-form h3{position:relative;margin:40px 0 30px;width:fit-content;color: white;}
+.sign-form button{width: 100%;height: 45px;font-size: 20px;color:white;cursor: pointer;outline: none;border:3px solid rgb(10, 157, 231);background: transparent;}
+.sign-form input{margin-bottom: 30px;position: relative;width: 100%;height: 30px;font-size: 20px;color: white;border:none;outline: none;border-bottom: 3px solid rgb(10, 157, 231);background: transparent;}
+.sign-form input::placeholder{color: white; font-size: 20px;}
+.sign-form a{color:white;display: flex;justify-content: center;position: relative;top:10%}
+.sign-form a:hover{color:orange;}
+.sign-with{width: 30%;height: 40%;position: relative;left: 10%;}
+.sign-with h3{position:relative;margin:0 0 30px;font-size: 20px;color: white;}
+.sign-with a section{border:3px solid;width: 45%;line-height: 45px;height:45px;font-size: 20px;}
+#facebook{color:rgb(14, 110, 245);display: flex;justify-content: space-evenly;}
+ #facebook i{line-height: 45px;}
+#facebook:hover{color:rgb(40, 148, 241)}
+#gmail{color:rgb(250, 129, 0);display: flex;justify-content: space-evenly;}
+#gmail:hover{color:rgb(248, 166, 77);}
+#gmail i{line-height: 45px;}
+.signup-body{display: flex;width: 100vw;height: 100vh;background:url('Images/Big_images/Tower-Bridgejpg.jpg'); background-position:center;background-repeat:no-repeat;background-size:cover;}
+.signup-box{ width: 100%;height: 100%;background: rgb(0, 0,0, 0.8); display: flex;align-items: center;justify-content: center;flex-direction: column;}
+.signup-form{width: 350px;height: 400px;background: transparent;font-size: 20px;position: relative;left:2%;}
+.sign-form .eye-show{position:relative;top:-14%}
+.signup-form h3{position:relative;margin:40px 0 30px;width:fit-content;color: white;}
+.signup-form button{width: 100%;height: 40px;font-size: 20px;color:white;cursor: pointer;outline: none;border:3px solid rgb(10, 157, 231);background: transparent;}
+.signup-form input{margin-bottom: 30px;position: relative;width: 100%;height: 30px;font-size: 20px;color: white;border:none;outline: none;border-bottom: 3px solid rgb(10, 157, 231);background: transparent;}
+.signup-form input::placeholder{color: white;font-size: 20px;}
+.signup-form a{color:white;display: flex;justify-content: center;position: relative;top:10%}
+.eye-show{position: absolute;cursor: pointer;display: inline-block;top: 57%;left:94%;color:rgb(10, 157, 231);}
+.eye-show #eye1{display:none;}
+.user-form{width: 99%;height: 99%;display: flex;justify-content: center;align-items: center;}
+.user-form .left-form{ width:67%; height:590px; background:rgb(0, 0,0, 0.8); position: relative;left:20%;border: 3px solid orange}
+.user-form .left-form img{ width: 30%;margin-left: 8%;height: 200px;}
+.user-form .left-form input{border-bottom:4px solid orange;cursor: pointer;;outline: none;width: 30%;height:30px;line-height: 30px;
+display: flex;flex-direction:row;color: whitesmoke;font-size: 20px;position: relative;top:20px;left: 8%;}
+.user-form .left-form button{border-bottom:4px solid orange;cursor: pointer;background-color:white; border-top:none; border-left:none; border-right: none; outline: none;
+width: 30%;height:30px;background:transparent;color: aliceblue;font-size: 20px;font-size:20px;line-height: 30px;display: flex;flex-direction:row;justify-content: center;
+position: relative; top:20px;left: 8%;}
+.user-form .left-form a {border-bottom:4px solid orange;border-top:none;border-left:none;border-right: none;outline: none;width: 30%;height:30px;
+display: flex;flex-direction:row;justify-content: center;font-size: 15px;position: relative;
+top:30px;left: 8%;text-align: center;line-height: 30px;color: black;color: aliceblue;font-size: 20px;}
+.item a img{ height:500px;}
+.downloadPost{
+  position: relative;
+  top: 100px;
+  left :70%;
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+.Usercomment {
+  margin-left: 130px;
+  line-height: 20px;
+}
+.Usercomment b{
+  position: relative;
+  top: -10px;
+}
+.Usercomment span{
+  position: relative;
+  top: -10px;
+}
+.owl-carousel .owl-nav button.owl-next{
+  font-size: 100px;
+  opacity: 0.5;
+  position: absolute;
+  top: 155px;
+  left:0px;
+  outline: none;
+}
+.owl-carousel .owl-nav button.owl-prev{
+  font-size: 100px;
+  opacity: 0.5;
+  position: absolute;
+  top: 155px;
+  right: 0px;
+  outline: none;
+}
+.centerBackground{width: 100%;height:2300px;background: url('Images/Big_images/back-Golden\ Gate\ Bridge.jpg');background-attachment: fixed;background-position:center;
+background-repeat:no-repeat;background-size:cover;}
+.insideCenter{width: 100%;height: 1000px;background: rgba(15, 15, 15, 0.2); display: flex;align-items: center;justify-content: center;flex-direction: column;color: white;}
+.insideCenter img{width: 20%; height: 300px; border-radius: 11px;position: relative;top: -12%;}
+.underCenter img{ width: 20%; height: 300px;border-radius: 11px; position: relative;left: 40%;}
+.underCenter a section{width: 20%;height: 60px; background-color: rgb(64, 68, 67); position: relative; left:40%; font-size:25px;
+text-align: center; line-height: 60px;color:rgb(166, 186, 202);clip-path: polygon(50% 0%, 100% 0, 100% 76%, 49% 100%, 49% 100%, 0 76%, 0 0);
+transition: color 0.5s}
+.underCenter a section:hover{color:rgb(7, 142, 253)}
+.MiddleCenter{width: 100%;height:200px;background-color: white;}
+.Footer{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(29, 27, 27);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.Footer .Contact-left {
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;
+  font-size: 20px;
+}
+.Footer b{
+ margin-top: 70px;
+ margin-left: 12%;
+ color: aliceblue;
+}
+.Contact-left a{
+  color: aliceblue;
+  padding-bottom: 15px;
+  transition: color 0.5s;
+}
+
+.Contact-left a:hover{
+  color: aqua;
+}
+.Contact-right {
+  display: flex;
+  flex-direction: column;
+  color:aliceblue;
+  margin-top: -51.5px;
+}
+.Contact-right a{
+  color: aliceblue;
+  transition: color 0.5s;
+}
+.Contact-right .FooterMap iframe{
+  width: 80%;
+  height:250px;
+  margin-left: 12%;
+}
+.Contact-right a:hover{
+  color: aqua;
+}
+ h6{
+   color: aliceblue;
+}
+
+.headerConcept img{
+  width: 100%;
+  height:600px;
+}
+.headerConcept .insideHeaderConcept{
+  width: 40%;
+  height: 600px;
+  background: rgb(0, 0,0, 0.7);
+  color: aliceblue;
+  position: absolute;
+  top: 90px;
+  right: 0;
+  text-align: center;
+}
+.headerConcept .insideHeaderConcept h2 a{
+  color:aliceblue;
+}
+.headerConcept .insideHeaderConcept h2 a:hover{
+  color: aqua;
+}
+.headerConcept .insideHeaderConcept p{
+  margin-left: 30%;
+ text-align:left;
+ line-height: 40px;
+}
+#map {
+  width: 100%;
+  height: 100%;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.PostBox1{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.PostBox1 .imageBox{width: 45%;height: 100px;position: absolute;margin-left: 2%;margin-top: -8%;}
+.PostBox1 .imageBox img{
+  width: 32.5%;
+  height: 200px;
+  float: left;
+  
+}
+.PostBox1 .postBridges p{
+  width: 50%;
+  height: 500px;
+  position: relative;
+  left: 48%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+}
+.PostBox2{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.PostBox2 .postBridges2{
+  width: 50%;
+  margin-left: 3%;
+}
+.PostBox2 .postBridges2 p{
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;  
+}
+.PostBox2 .leftBridgeImage{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.PostBox2 .leftBridgeImage img{
+  padding: 30px;
+  width: 80%;
+  margin-top: -50px;
+
+}
+.PostBox3{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.PostBox3 .RightBridgeImage{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+.PostBox3 .RightBridgeImage img{
+  padding: 30px;
+  margin-top: -70px;
+}
+.PostBox3 .postBridges3{
+  width: 50%;
+  margin-right: 3%;
+  margin-top: -200px;
+}
+.PostBox3 .postBridges3 p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+}
+
+.NewImage{width: 100%;height: 500px;}
+.headNewImage{
+  width: 100%;
+  height: 500px;
+}
+.insideNewImage{width: 100%;height: 500px;background: rgb(0, 0,0, 0.6);position: absolute;top: 90px;
+  text-align:left;color: aliceblue;}
+  .insideNewImage section {
+    position: absolute;
+    top: 300px;
+    left: 12%;
+  }
+  .insideNewImage .NewLogo{font-size: 40px;}
+.News-box {
+  width: 100%;
+  height: 350px;
+ display: flex;
+ justify-self: center;
+}
+
+.News-box .News-list{
+  border: 3px solid orange;
+  background-color: aliceblue;
+  width: 20%;
+  height: 100%;
+  color: black;
+}
+.News-box .News-list img{
+  width: 100%;
+  height: 200px;
+}
+.News-box .News-list #news{
+  margin-top:-21px ;
+  position: absolute;
+  z-index: 100;
+  width: 20.1%;
+  background-color: orange;
+  color: aliceblue;
+  font-size: 20px;
+}
+.News-box .News-list h3{ width: 100%;font-size: 20px;
+  margin-top: 20px;overflow: hidden;text-overflow: ellipsis;line-height: 20px;-webkit-line-clamp:2;
+  display: -webkit-box;-webkit-box-orient:vertical}
+.News-box .News-list p{
+  width: 100%;
+  margin-top: 10px;overflow: hidden;text-overflow: ellipsis;line-height: 20px;-webkit-line-clamp:4;
+  display: -webkit-box;-webkit-box-orient:vertical
+}
+.mainUnderNew{
+  display: flex;
+  justify-content: space-around;
+}
+.underNewBox{
+  border: 4px solid orange;
+  width: 60%;
+  height: 300px;
+  display: flex;
+  color: black;
+}
+.underNewBox img{
+  width: 80%;
+  height: 300px;
+}
+.underNewContent{
+  width: 60%;
+  margin-left: 15px;
+}
+.underNewContent p{
+ 
+  margin-top: 10px;overflow: hidden;text-overflow: ellipsis;line-height: 20px;-webkit-line-clamp:8;
+  display: -webkit-box;-webkit-box-orient:vertical
+}
+.underNewContent .underNewDate{width: 97%;height:50px;font-size: 20px;color: aliceblue;background-color: chocolate;
+text-align: center; line-height: 50px}
+.rightUnderNew{border: 4px solid orange;width:30%;height: 300px;}
+.rightUnderNew img{width: 100%;height:300px;}
+.rightUnderNew h2{width:30%;
+height: 297px; background: rgb(0, 0,0, 0.6);margin-top: -300px;position: absolute; z-index: 100;
+text-align: center;line-height: 300px;color: aliceblue;}
+.listNewBridge{
+  border: 4px solid orange;
+  width: 50%;
+ margin: auto;
+ margin-top: 50px;
+ height: 200px;
+ display: flex;
+}
+.listNewBridge img{
+  width: 50%;
+  height: 200px;
+}
+.insideListNew{
+  width: 40%;
+  margin: auto;
+  color: black;
+}
+.insideListNew p{
+  margin-top: 10px;overflow: hidden;text-overflow: ellipsis;line-height: 20px;-webkit-line-clamp:7;
+  display: -webkit-box;-webkit-box-orient:vertical
+}
+.MainPost{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 100px;
+
+}
+.MainPost b{
+  font-size: 45px;
+  color:darkslategrey ;
+  width: 50%;
+}
+.MainPost img{
+  width:60%;
+  height: 700px;
+  
+}
+.MainPost strong{
+  width: 40%;
+  color: rgb(4, 116, 116);
+  font-size:20px ;
+  position: relative;
+  left: 30%;
+}
+.MainPost p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px
+}
+.MainSearch{
+  width:40%;height:300px;display:flex;padding:20px;flex-direction:column;margin-top:220px;float:left;margin-left:5%;
+}
+.MainSearch img{
+  width:100%;height:300px
+}
+.MainSearch .absoluteSearch{
+  width:33%;
+  height: 300px;
+  background-color: rgb(255, 105, 5);
+  position: absolute;
+  clip-path: polygon(0 0, 36% 0, 4% 40%, 7% 68%, 58% 100%, 0 100%, 0 58%, 0 56%);
+  transition: clip-path 0.5s;
+}
+.MainSearch:hover .absoluteSearch{
+  clip-path: polygon(0 0, 56% 0, 10% 39%, 17% 69%, 77% 100%, 0 100%, 0 58%, 0 56%);
+}
+.MainSearch .SearchList{
+  background-color: rgb(2, 255, 242);
+  width: 60%;
+  position: relative;
+  top: -120px;
+  left: 10%;
+  border-radius: 11px;
+}
+.MainSearch .SearchList h2{
+  color: black;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.MainPost p{
+  width: 60%;
+  padding: 10px;
+}
+.listRightNew{
+  border: 4px solid orange;
+  width: 25%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  float: left;
+  margin-left: 5%;
+}
+.listRightNew h3{
+  margin-top: 10px;
+}
+.listRightNew p{
+  margin-top: 10px;overflow: hidden;text-overflow: ellipsis;line-height: 20px;-webkit-line-clamp:3;
+  display: -webkit-box;-webkit-box-orient:vertical
+}
+.latestNew{
+  font-size: 45px;
+  position: relative;
+  color: rgb(4, 87, 59);
+  left:35%;
+}
+.headNewBridge img{
+ width: 100%;
+ height: 600px;
+}
+.headNewBridge .insideHeadNew {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(0, 0,0, 0.5);
+  position: absolute;
+  top:90px;
+  color: aliceblue;
+  text-align: center;
+  
+}
+.headNewBridge .insideHeadNew b{
+  font-size: 40px;
+  position: relative;
+  top: 150px;
+}
+.BodyBridges{
+  background-image: url('Images/Big_images/Manhattan\ Bridge.jpg');
+  background-attachment: fixed;
+  background-position:center;background-repeat:no-repeat;background-size:cover;
+}
+.insideHeadBox{
+  width: 70%;
+  height: 1800px;
+  margin: auto;
+  position: relative;
+  top: -300px;
+}
+.insideHeadBox .insideListBox{
+  width: 40%;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 6%;
+  float: left;
+  position: relative;
+ 
+}
+
+.insideHeadBox .insideListBox img{
+  width: 100.3%;
+  height: 290px;
+  position: relative;
+  right: 0.2%;
+}
+.insideHeadBox .insideListBox .doubleInsideList{
+  width: 100.3%;
+  height:212px;
+  background-color: white;
+  position: relative;
+  right: 0.2%;
+  top: -5px;
+  color: orange;
+}
+.insideHeadBox .insideListBox .doubleInsideBox{
+  width: 100.5%;
+  height: 160.6px;
+  clip-path: ellipse(90% 63% at 34% 70%);
+  background-color:orange ;
+  position: absolute;
+  right: -0.2%;
+   top: 330px;
+   z-index: 100;
+}
+.insideHeadBox .insideListBox .doubleInsideBox p{
+  margin-top: 50px;overflow: hidden;text-overflow: ellipsis;line-height: 20px;-webkit-line-clamp:5;
+  display: -webkit-box;-webkit-box-orient:vertical;color: white;
+}
+.pages{
+ position:absolute;
+ z-index: 1000;
+ top: 1900px;
+left: 37%;
+}
+.pages a{
+  border-radius: 11px;
+  color: aliceblue;
+  background-color: orange;
+  font-size: 30px;
+  padding: 26px;
+}
+.SearchPage{
+  margin-left: 40%;
+}
+.SearchPage a{
+  border-radius: 11px;
+  color: aliceblue;
+  background-color: orange;
+  font-size: 30px;
+  padding: 26px;
+  color: aliceblue;
+}
+.formAdmin{
+ border:2px solid black;
+ width: 40%;
+ height: 300px;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ margin-top: 200px;
+ background-color: orange;
+ border-radius:11px ;
+}
+.formAdmin h1{
+  margin: auto;
+  color: black;
+}
+.formAdmin input{
+  width: 70%;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 20px;
+  outline: none;
+}
+.warning{
+  width: 40%;
+  height: 40px;
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  margin: auto;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  line-height: 40px;
+}
+.headPanel{
+  width: 100%;
+  height: 40px;
+  background-color: orange;
+  display: flex;
+  justify-content: space-around;
+  line-height: 40px;
+  
+  
+}
+.headPanel ul a{
+  color: black;
+}
+.headPanel .underPanel{
+  position: relative;
+  top: -40px;
+  left: -150%;
+}
+.headPanel .underPanel a:hover{
+  color: coral;
+}
+
+.listOption{
+  border:1px solid black;
+  width: 18%;
+  height: 796px;
+  background-color: cadetblue;
+  text-align: center;
+  font-size: 20px;
+  overflow-y: scroll;
+}
+
+.listOption li a{
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  color: rgb(0, 0, 0);
+}
+.listOption li a:hover{
+  color: aqua;
+}
+.Post{
+  width: 80%;
+  position: relative;
+  left:19%;
+  height: 750px;
+  top: -770px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.Post #Nation{
+font-size: 20px;
+}
+.Post input{
+  font-size: 20px;
+  width: 50%;
+}
+.Specification{
+ border:4px solid blue;
+ border-radius: 11px;
+ width: 75%;
+ height: 600px;
+ position: relative;
+ left: 20%;
+ top:-700px;
+}
+.Specification h2{
+  margin-left: 32%;
+  margin-top: 10px;
+}
+.Specification select{
+  border: 2px solid orange;
+  margin-left:20px ;
+  font-size: 20px;
+  height: 40px;
+}
+.Specification input{
+  border: 2px solid orange;
+  margin-left: 20px;
+  height: 40px;
+  font-size: 20px;
+  outline: none;
+}
+.Specification textarea{
+  border: 2px solid orange;
+  font-size: 20px;
+  margin-left: 20px;
+  width: 39%;
+  outline: none;
+}
+.Specification .mappanel{
+  width: 90%;
+}
+.Specification .addSpe{
+  width: 50%;
+}
+.Specification .Longpanel{
+  width: 35%;
+}
+.Specification button{
+  width: 30%;
+  line-height: 40px;
+  font-size: 20px;
+  background-color: rgb(255, 102, 0);
+  color: aliceblue;
+  margin-left: 30%;
+  cursor: pointer;
+}
+.NEWS_bridges{
+  border: 2px solid blue;
+  width: 80%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 19%;
+  top: -750px;
+  align-items:center;
+}
+.NEWS_bridges input{
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+}
+.NEWS_bridges textarea{
+  width: 80%;
+  height: 350px;
+  font-size: 20px;
+}
+.NEWS_bridges #fileNews{
+border: 1px solid orange;
+width: 20%;
+cursor: pointer;
+}
+.NEWS_bridges button{
+  width: 20%;
+  height: 40px;
+  font-size: 20px;
+  background-color:deepskyblue;
+  cursor: pointer;
+}
+.nationBackground{
+  width: 100%;
+  height: 100%;
+  background-position:center;background-repeat:no-repeat;background-size:cover;
+  background-attachment: fixed;
+}
+.nationBody{
+ width: 100%;
+ height: 200%;
+
+}
+.NationBox{
+  border:3px solid orange;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+ position: relative;
+ top:220px;
+ left:14%;
+ color: orange;
+  float: left;
+  margin-right: 200px;
+  transform: scale(1);
+  transition: transform 0.5s;
+  
+}
+.NationBox:hover{
+  transform: scale(1.05);
+}
+.NationBox .searchContent{
+  position: absolute;
+  z-index: 100;
+ width: 100%;
+ height: 100%;
+  background-image: linear-gradient(rgba(170, 163, 163, 0.5),rgb(0, 0,0,1));
+}
+.NationBox .searchContent h2{margin: auto;margin-top: 120px;}
+.NationBox img{
+  width: 100%;
+  position:relative;
+}
+.NationBox .searchContent p{margin-top: 10px;overflow: hidden;text-overflow: ellipsis;line-height: 20px;-webkit-line-clamp:4;
+  display: -webkit-box;-webkit-box-orient:vertical}
+  .CovidForm{width: 80%;height: 670px;position: relative;
+    left: 20%;
+    top: -750px;overflow-y: scroll;}
+.VNCovid{
+  border:2px solid green;
+  width: 80%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+
+}  
+.VNCovid input{
+  width: 50%;
+  height: 40px;
+  margin: auto;
+  font-size: 20px;
+}
+.VNCovid textarea{
+  height: 300px;
+  font-size: 20px;
+}
+.changePassword{
+  border:2px solid red;
+  width: 60%;
+  height: 400px;
+  position: relative;
+  left: 25%;
+  top: -700px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.changePassword input{
+  width: 70%;
+  height: 40px;
+  margin: auto;
+  font-size: 20px;
+}
+.NumberCovidVN{
+  border :2px solid green;
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 30%;
+  top: -780px;
+  text-align: center;
+  overflow-y: auto;
+}
+.NumberCovidVN .covidContent{
+  margin: auto;
+}
+.NumberCovidVN h2{position: absolute;}
+.NumberCovidVN select {
+  width: 40%;
+  font-size: 20px;
+  margin-top: 40px;
+  height: 35px;
+   
+}
+.NumberCovidVN input{
+  width: 40%;
+  font-size: 20px;
+  position: relative;
+  height: 30px;
+  top: 40px;
+}
+.NumberCovidVN strong {
+  display: flex;
+  justify-content: space-around;
+  color: red;
+  position: relative;
+  top: 20px;
+}
+.NumberCovidVN #VNSubmit{
+  width: 50%;
+  font-size: 20px;
+  margin: auto;
+  background-color: rgb(10, 157, 231);
+  margin-top: 50px;
+}
+.addTinh{
+  border:2px solid green;
+  width: 50%;
+  height: 250px;
+  position: relative;
+  left:30%;
+  top: -780px;
+}
+.addTinh h2{
+  position: relative;
+  left:20%;
+}
+.addTinh input{
+  font-size: 20px;
+}
+.addTinh #addSubmit{
+ position: relative;
+ left:40%;
+ top: 30px;
+ background-color: lightskyblue;
+}
+.addTinh section{
+  position: relative;
+  left:29%;
+}
+
+.daily-covid{
+  border:2px solid green;
+  width: 50%;
+  height: 100px;
+  position: relative;
+  left:30%;
+  top: -780px;
+}
+.daily-covid h2{
+  margin-left: 30%;
+}
+.daily-covid input{
+  width: 30%;
+  position: relative;
+  left:20%;
+  top: 5px;
+  height: 30px;
+  font-size: 20px;
+}
+.daily-covid #SumSubmit{
+  margin-left:15% ;
+  background-color: rgb(14, 110, 245);
+  
+}
+.daily-covid2{
+  border:2px solid green;
+  width: 60%;
+  height: 150px;
+  position: relative;
+  left:30%;
+  top: -780px;
+}
+.daily-covid2 h2{
+  margin-left: 30%;
+}
+.daily-covid2 input{
+  width: 30%;
+  margin-left: 20px;
+  height: 40px;
+  font-size: 20px;
+}
+.daily-covid2 button{
+  font-size: 20px;
+  width: 30%;
+  height: 40px;
+  margin-left:30% ;
+  cursor: pointer;
+  background-color: rgb(14, 110, 245);
+  margin-top: 10px;
+}
+.CovidWorld{
+  border:2px solid green;
+  width: 60%;
+  height: 230px;
+  position: relative;
+  left:30%;
+  top: -780px;
+}
+.CovidWorld h2{
+  margin-left:30% ;
+  margin-top: 10px;
+}
+.CovidWorld select{
+  width: 30%;
+  font-size: 20px;
+  margin-left:30%;
+  margin-top: 10px;
+}
+.CovidWorld input{
+  width: 30%;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 40px;
+}
+.CovidWorld button{
+  width: 30%;
+  font-size: 20px;
+  height: 40px;
+  margin-left: 30%;
+  margin-top: 10px;
+  background-color: rgb(14, 110, 245);
+  cursor: pointer;
+}
+.addNation{
+  border:2px solid green;
+  width: 60%;
+  height: 250px;
+  position: relative;
+  left:30%;
+  top: -780px;
+}
+.addNation h2{
+  margin-left: 25%;
+}
+.addNation input{
+  width: 30%;
+  font-size: 20px;
+  margin-left: 10px;
+  height: 40px;
+}
+.addNation #addSubmit2{
+  position: relative;
+  left:30%;
+  top:30px;
+  background-color: rgb(14, 110, 245);
+  cursor: pointer;
+}
+.VNChart{
+  border:2px solid green;
+  width: 60%;
+  height: 250px;
+  position: relative;
+  left:30%;
+  top: -680px;
+}
+.VNChart h2{
+  position: relative;
+  left:30%;
+  margin-bottom: 10px;
+}
+.VNChart  input{
+  font-size: 20px;
+  height: 40px;
+  margin-left: 30px;
+}
+.VNChart button{font-size: 20px;
+  height: 40px;background-color: rgb(165, 233, 165);cursor: pointer;}
+  .VNChart   section{
+    position: relative;
+    left:33%;
+    font-size: 20px;
+  }
+.DesignPage{
+  width:100%;height:250%;background:rgb(0, 0,0, 0.5);position:absolute;
+}
+.DesignPage.DesignBox{width:55%;height:1330px;margin-left:40%;margin-top:150px;display:flex;
+  justify-content:space-between}
+.DesignAb{width:100%;height:300px;background-color:rgb(248, 134, 12);position:relative;top:-304px;z-index: 100;
+                ;clip-path: polygon(0% 0%, 0% 100%, 0 100%, 0 22%, 25% 0, 100% 0, 100% 74%, 76% 100%, 100% 100%, 100% 0%);
+              transition: clip-path 0.5s;}
+.DesignBox1{ width:45%;height:300px;border:2px solid white;margin-right:10px;margin-top: 20px;float:left}
+.DesignBox1 img{
+  width:100%;height:300px;
+}
+.DesignBox1 h2{
+  width:100%;position:relative;color:orange;top:-400px;line-height:50px;background-color:skyblue
+}
+.DesignBox1:hover .DesignAb{
+  clip-path: polygon(0% 0%, 0% 100%, 0 100%, 0 40%, 44% 0, 100% 0, 100% 57%, 51% 100%, 100% 100%, 100% 0%);
+}
+.FixedDesign{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  margin-top: 500px;
+  margin-left: 30px;
+  font-size: 20px;
+  position:fixed;
+  z-index: 1000;
+}
+.firstCommentForm{
+  border: 1px solid black;
+  width: 99%;
+  height: 500px;
+}
+
+.manaComment{
+  position: absolute;
+  left: 30%;
+  top: 50px;
+}
+.manaComment h2{
+  color: blue;
+  margin-left: 220px;
+}
+.manaComment2{
+  position: absolute;
+  left: 20%;
+  top: 450px;
+}
+.manaComment2 h2{
+  color: blue;
+  margin-left: 350px;
+}
+.Title{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  right: 210px;
+}
+.Title3{
+  display: flex;
+  justify-content: center;
+  position:relative;
+  right: 210px;
+}
+.Title strong{
+  padding-left: 92px;
+  color: coral;
+}
+.Title3 strong{
+  position: relative;
+  left: 12%;
+  padding-left: 100px;
+  color: coral;
+}
+.Title2 {
+ 
+  position: relative;
+ height: 300px;
+ overflow-y: scroll;
+ overflow-x: hidden;
+ padding-left: 10px;
+   right: 102px;
+}
+.Title4 {
+
+  position: relative;
+ height: 300px;
+ overflow-y: scroll;
+ overflow-x: hidden;
+ padding-left: 10px;
+ left:40px
+
+}
+.Title2 a{
+  position:relative;
+  left:84%;
+  background-color: coral;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+.Title4 a{
+  position:relative;
+  left:84%;
+  background-color: coral;
+  color: white;
+  font-size: 15px;
+  padding: 7px;
+  cursor: pointer;
+  top: -17px;
+}
+.Title2 span{
+  position:absolute;
+  left:60%;
+  flex-direction:column ;
+}
+.Title4 section{
+  width: 400px;
+  position:absolute;
+  left:43%;
+  flex-direction:column ;
+  word-wrap: normal 
+}
+.Title2 div{
+  color:darkblue;
+  position:absolute;
+  left: 12px;
+  line-height: 50px;
+  z-index: 1000;
+}
+.Title4 div{
+  color:darkblue;
+  position:absolute;
+  left: 12px;
+  line-height: 50px;
+  z-index: 1000;
+}
+.Title2 p{
+ position: relative;
+ left: 15%;
+ top: 20px;
+}
+.Title4 p{
+  position: relative;
+  left: 14%;
+  top: 20px;
+  word-wrap: normal 
+ }
+ .planes{
+   width: 100%;
+   position: relative;
+ }
+ .planes div{
+   background: rgb(0, 0,0, 0.3);
+   position: absolute;
+   z-index: 100;
+   width: 100%;
+   height: 649px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .planes div p{
+   position: relative;
+   top:280px;
+   font-size: 30px;
+   color: white;
+ }
+ .planes div button{
+  position: relative;
+  top:400px;
+  font-size: 25px;
+  line-height: 50px;
+  color: aliceblue;
+  background: transparent;
+   border: 3px solid white;
+   padding: 20px;
+   border-radius: 11px;
+   cursor: pointer;
+ }
+ 
+ .planes img{
+   width: 100%;
+ }
+ .noneNation{
+   width: 50%;
+   height: 300px;
+   margin: auto;
+   position: relative;
+   top: 200px;
+  background-image:url('Images/Big_images/Tower\ Bridge.png');
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: aliceblue;
+  border: 4px solid aqua;
+ }
+ .noneNation h2{
+   position: relative;
+   top: 120px;
+   font-size:30px ;
+ }
+ .noneNation form{
+   position: relative;
+   top: 180px;
+   
+ }
+ .noneNation form select{
+   background: transparent;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   font-size: 20px;
+   color: aliceblue;
+   outline: none;
+   border-bottom-color:aliceblue;
+   border-bottom-width:3px;
+  margin-right: 42px;
+  cursor: pointer;
+ }  
+ 
+ .noneNation form select option{
+     color: aliceblue;
+     background-color: gray;
+ }
+ .noneNation form button{
+  background: transparent;
+  color: aliceblue;
+ }
+ .rightUser{
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+ }
+ .itemRightUser{
+   width: 80%;
+   height: 150px;
+   background-color: aliceblue;
+   position: relative;
+   right: 35%;
+   top: 45px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 85% 75%, 88% 90%, 62% 75%, 0% 75%);
+ color: orange;
+ }
+ .itemRightUser img{
+   width: 50%;
+   line-height: 150px;
+   position: relative;
+   right: 10px;
+   float: left;
+ }
+ .itemRightUser b{
+  position: relative;
+  top: 12px;
+ }
+ .rightUser h2{
+   color: aliceblue;
+ }
+ @media screen and (max-width:1300px) {
+   .header-img{display: none;}
+ }
+ @media screen and (max-width:970px) {
+   .header-box{line-height: 20px;}
+  .header-news a{ font-size: 15px;}
+  .header-input form{width: 120%;}
+  .header-search{font-size: 15px;}
+  .header-button{font-size: 15px;}
+  .header-nation form{width: 120%;}
+  .header-nation form select{font-size: 15px;}
+  .header-charac  a{width: 130%;font-size: 15px;}
+  .header-login a{font-size: 15px;}
+  .header-covid a{font-size: 13px;}
+  .insideCenter img{width: 30%;height: 200px;}
+  .underCenter #centerlogo{width: 30%;height: 200px;position: relative;left: 310px;}
+  .Footer .Contact-left h6{width: 200%;}
+  .Contact-right h3{display: none;}
+  .FooterMap{width: 200%;position: relative;right: 90%;}
+}
+ @media screen and (max-width:850px) {
+ .header-charac{ display: none;  }
+ .header-box{width: auto;padding-bottom:230px;}
+ .header-box a img{position:relative;}
+ .header-menu{ height:500px;flex-direction:column;position: relative;top: -100px;}
+ .centerBackground{height: 1500px;}
+ .insideCenter{display: none;}
+ .underCenter #centerlogo{width: 50%;position: relative;left:26%;}
+ .underCenter a section{width: 50%;margin-left: -14%;}
+
+ .Footer .Contact-left h6{position: absolute;top: 270px;font-size: 10px;left: 1px;}
+ .Footer .Contact-right {
+   display: none;
+ }
+ .UserBody{
+   background-image: url('Images/Normal_images/Brooklyn Bridge.jpg');
+   background-attachment:fixed;
+ }
+  .rightUser{display: none;}
+  .user-form{width: 100%;;position: relative;right: 100px;display: flex;justify-content: center;bottom: 40px;}
+  .left-form {width: 100%;}
+  .left-form img{min-width: 80%;}
+  .left-form form{position: relative;width: 100%;}
+  .left-form form input{margin-left:5px;height: 90px;min-width:80%;}
+  .left-form button{margin-left:5px;height: 90px;min-width:80%;}
+  .left-form a{margin-left:5px;height: 90px;min-width:80%;}
+  .headNewBridge .insideHeadNew{margin-top: 210px;}
+  .insideHeadBox {width: 100%;height: 3500px;display: flex;flex-direction: column;align-items:center;}
+  .insideHeadBox .insideListBox{width:90%;}
+  .pages{position: relative;top: 100px;left: -20px;}
+  .headerConcept .insideHeaderConcept{margin-top: 210px;width: 140%}
+  .PostBox1 .imageBox{display: none;}
+  .PostBox1 .postBridges{width: 100%;}
+  .postBridges #firstPost{width: 150%;position:relative;left: -130px;top:10px;}
+  .PostBox2 .postBridges2{width: 100%;margin-top: 120px;}
+  .PostBox2 .postBridges2 p{width: 100%;position: absolute;left: 2px;}
+  .leftBridgeImage img{display: none;}
+  .PostBox3 .postBridges3{width: 100%;height: 3000px;margin-top: 1850px;margin-bottom: 400px;}
+  .PostBox3 .postBridges3 p{width: 150%;position:relative;left: -130px;top:300px;}
+  .RightBridgeImage img{display: none;}
+  .downloadPost{position: relative;top: -50px;left: 60px;}
+  .CommentForm{width: 100%;position: relative;left: -40px;}
+  .Usercomment{width: 100%;position: relative;left: -125px;}
+  .Usercomment span{padding: 10px;display: inline-block;flex-direction: column;}
+  .planes div{width:100%;height: 198px;}
+  .planes div p{font-size: 15px;position: relative;top: 50px;}
+  .planes div button{width: 40%;height: 40px;font-size: 15px;position: relative;top: 80px;line-height: 10px;}
+  .insideNewImage{margin-top: 210px;}
+  .News-box{display: flex;flex-direction: column;height: 1600px;}
+  .News-list{margin-left: 50px;min-width: 300px;}
+  .mainUnderNew{display: flex;flex-direction: column;}
+  .underNewBox{width: 98%;height: 200px;margin-bottom: 20px;}
+  .underNewBox img{width:40%;height: 200px;}
+  .rightUnderNew{width: 98%;}
+  .rightUnderNew h2{width: 98%;}
+  .listNewBridge{width: 98%;}
+  .listNewBridge h2{font-size: 15px;}
+  .MainPost b{width: 100%;}
+  .MainPost strong{width: 100%;}
+  .MainPost img{min-width: 100%;}
+  .MainPost p{width: 100%;}
+  .menu-covid ul{width: 100%;}
+  .menu-covid ul li{font-size: 16px;position: relative;left: -40px;width: 100%;}
+  .new-header{width: 98%;height: 170px;position: relative;top: 5px;left: 2px;}
+  .new-header img{width: 50%;height: 168px;margin-top: -7px;}
+  .main-content{position: relative;right: 92px;}
+  .main-content h3{font-size: 15px;min-width: 250%;}
+  .main-content p{font-size: 12px;height: 100px;max-width:240%;}
+  .listPostCovid{font-size: 16px;position: relative;left: -20px;width: 98%;}
+  .listPostCovid p{font-size: 12px;height: 100px;max-width:240%;}
+  .listPostCovid h3{font-size: 15px;min-width: 100%;}
+  .Left-new{width: 90%;height:200px;}
+  .Left-new h3{font-size: 16px;}
+  .Left-new img{width: 50%;}
+  .Left-new p{height: 80px;}
+  #Titleh1{position: relative;left: -120px;font-size: 20px;}
+  .first_chart {display: flex;flex-direction: column;}
+  .first_chart #container{position: relative;left: -72px;width: 100%;}
+  .first_chart #container2{position: relative;left: -68px;width: 100%;}
+  #title_second_chart{position: relative;left: -120px;font-size: 20px;}
+  .table{min-width: 98%;}
+  #Worldh1{position: relative;left: -120px;font-size: 20px;}
+  .update{display: flex;flex-direction: column;}
+  .today{font-size: 20px;text-align: center;}
+  .first_chart #container3{position: relative;left: -72px;width: 100%;}
+  .first_chart #container4{position: relative;left: -68px;width: 100%;}
+  .itemSearch{width: 100%;display: flex;flex-direction: column;align-items: center;}
+  .MainSearch{min-width: 100%}
+  .MainSearch img{height: 200px;}
+  .MainSearch .SearchList{font-size: 10px;margin-left: -20px;}
+  .MainSearch .absoluteSearch{position: absolute;z-index: 100;height:200px ;}
+  .searchFooter{position: relative;top: 720px;}
+ .VNNEWSBOX{position:relative;top: 750px;z-index: 100;left: -90px;}
+ .SearchPage{ display: flex;}
+ .NationBox{width: 90%;position: relative;left: 15px;}
+ .NationBox .searchContent p{overflow: hidden;text-overflow: ellipsis;line-height: 20px;-webkit-line-clamp:3;
+  display: -webkit-box;-webkit-box-orient:vertical}
+  .noneNation{width: 90%;}
+  .FixedDesign{display: none;}
+  .DesignBox1{width: 125%; position: relative;right: 100px;}
+  .DesignPage{height: 3000px;}
+  #showFooter{position: absolute;top: 1200px;}
+
+ }
